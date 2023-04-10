@@ -2,5 +2,10 @@
   "name": "yuanli-cli",
   "version": "0.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^9.1.5",
+    "ora": "^6.3.0"
+  }
 }
