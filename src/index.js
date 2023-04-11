@@ -11,14 +11,8 @@ const PROMPT_LIST= [
     type: 'list',
     message: 'choose download template',
     name: 'templateName',
-    choices: ['umi-att','react-artt'],
-  },
-  {
-    type: 'list',
-    message: 'choose download source',
-    name: 'source',
-    choices: ['github','gitee'],
-  },
+    choices: ['umi-att'],
+  }
 ];
 
 function entry() {
