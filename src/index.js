@@ -1,6 +1,9 @@
+#!/usr/bin/env node
+
 import inquirer from 'inquirer';
 import {handleDownload} from "./download.js";
-const PROMPT_LIST= [
+
+const PROMPT_LIST = [
   {
     type: 'input',
     message: 'enter your project name',
